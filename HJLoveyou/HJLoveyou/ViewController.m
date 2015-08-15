@@ -25,4 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc
+{
+    NSLog(@"%s",__func__);
+}
+
 @end
